@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 	</head>
 	<body>
+		<div ng-app="myApp" ng-controller="personCtrl">
+			Prénom : <input type="text" ng-model="prenom"><br>
+			Nom : <input type="text" ng-model="nom"><br>
+			<br>
+			Nom complet: {{nomComplet()}}
+		</div>
+		<script src="controller.js"></script>
 	</body>
 </html>
