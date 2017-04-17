@@ -1,0 +1,1 @@
+This is an exercise about Git and GitHub from Openclassroom's online course.
